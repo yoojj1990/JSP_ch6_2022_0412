@@ -19,7 +19,7 @@
 	<%
 		session.removeAttribute("memberPw");
 	
-		String Pw2 =  session.getAttribute("memberPw").toString();
+		String Pw2 = (String) session.getAttribute("memberPw");
 				
 		out.println(pw);
 	%>
